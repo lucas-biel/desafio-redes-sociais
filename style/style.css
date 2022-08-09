@@ -47,10 +47,23 @@ main {
   height: 47.1rem;
 }
 
+#social {
+  text-align: right;
+}
+
 #social img {
   width: 5rem;
   margin: 1rem;
 
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+
+#social img:hover {
+  border: 2px solid rgba(255, 255, 255, 0.636);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.624);
+
+  transform: translate(-3px, -3px);
+  transition: transform 300ms, border 150ms;
 }
